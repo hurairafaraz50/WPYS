@@ -300,7 +300,7 @@ h1 {
   font-size: 22px;
 }
 .choose{
-  padding: 60px 60px 60px 60px;
+  padding: 70px 70px 70px 70px;
   background-color: #15136A;
 
 }
@@ -332,4 +332,65 @@ h1 {
 .experience{
   text-align: center;
   color: #ffffff;
+}
+
+
+.rating{
+  padding: 60px 60px 60px 60px;
+  background-image: url("../pic/bg1.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+.rate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  text-align: center;
+}
+.online{
+  border-bottom: 2px solid #15136A ;
+}.online h1{
+  font-weight: 600;
+  font-size: 100px;
+  align-items: center;
+}
+.online h3{
+  color: #15136A;
+  font-weight: 600;
+  font-size: 30px;
+  align-items: center;
+}
+.recommend{
+  border-bottom: 2px solid #15136A ;
+
+}
+.recommend h1{
+  font-weight: 600;
+  font-size: 100px;
+}
+.recommend h3{
+  color: #15136A;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.review{
+  border-bottom: 2px solid #15136A ;
+
+}
+.review h1{
+  font-weight: 600;
+  font-size: 100px;
+}
+.review h3{
+  color: #15136A;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.about-us{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
