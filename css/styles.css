@@ -37,16 +37,26 @@
   border: none;
   outline: none;
 }
+
 .banner {
   display: flex;
+  justify-content: center;
   align-items: center;
-  
-  width: 1920px;
-  height: 700px;
+  gap: 50px;
+  padding: 200px 0px 200px 0px;
 }
-.banner-content {
-  line-height: 50px;
+.triangle{
+  position:absolute;
+  right: 0px;
+  top: 0px;
+  width: 60%;
+  height: 800px;
   
+}
+.laptop img{
+  position: relative;
+  width: 102%;
+  height: 300px;
 }
 .banner-content p {
   color: #000000;
@@ -61,14 +71,17 @@ h1 {
   background-color: #15136a;
   color: #ffffff;
   margin-top: 24px;
-  
+
   padding: 12px 30px 12px 30px;
   border-radius: 30px;
   border: none;
   outline: none;
 }
-.services{
-  padding-top:50px ;
+
+
+
+.services {
+  padding-top: 50px;
   padding-bottom: 50px;
   background-image: url("../pic/bg1.png");
   background-position: center;
@@ -76,87 +89,84 @@ h1 {
   background-size: cover;
 }
 
-.services h2{
+.services h2 {
   margin-bottom: 30px;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
   color: #000000;
 }
-.our-services{
+.our-services {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 80px;
 }
-.shop-design img{
+.shop-design img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.shop-design h3{
+.shop-design h3 {
   margin-top: 20px;
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
   text-align: center;
-  color:  #1CC8DB;
+  color: #1cc8db;
 }
-.shop-design p{
+.shop-design p {
   text-align: center;
   color: #000000;
 }
-.Conversion-optimization img{
+.Conversion-optimization img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.Conversion-optimization h3{
+.Conversion-optimization h3 {
   margin-top: 20px;
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
   text-align: center;
-  color:  #1CC8DB;
+  color: #1cc8db;
 }
-.Conversion-optimization p{
+.Conversion-optimization p {
   text-align: center;
   color: #000000;
 }
-.ad-strategy img{
+.ad-strategy img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.ad-strategy h3{
+.ad-strategy h3 {
   margin-top: 20px;
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
   text-align: center;
-  color:  #1CC8DB;
+  color: #1cc8db;
 }
-.ad-strategy p{
+.ad-strategy p {
   text-align: center;
   color: #000000;
 }
- 
 
-
-.goals{
-  padding-top:50px ;
+.goals {
+  padding-top: 50px;
   padding-bottom: 50px;
-  background: #1CC8DB1C;
-
+  background: #1cc8db1c;
 }
-.goals h2{
+.goals h2 {
   margin-bottom: 40px;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
   color: #000000;
 }
-.three-steps{
+.three-steps {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 80px;
 }
-.get-in-touch img{
+.get-in-touch img {
   margin-bottom: 30px;
 
   display: block;
@@ -164,11 +174,11 @@ h1 {
   margin-right: auto;
 }
 
-.get-in-touch p{
+.get-in-touch p {
   text-align: center;
   color: #000000;
 }
-.project-execution img{
+.project-execution img {
   margin-bottom: 30px;
 
   display: block;
@@ -176,61 +186,58 @@ h1 {
   margin-right: auto;
 }
 
-.project-execution p{
+.project-execution p {
   text-align: center;
   color: #000000;
 }
-.get-access img{
+.get-access img {
   margin-bottom: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.get-access p{
+.get-access p {
   text-align: center;
   color: #000000;
 }
 
-
-.order{
+.order {
   padding: 50px 50px 50px 50px;
-  background: #15136A;
+  background: #15136a;
   width: 100%;
 }
-.order h2{
+.order h2 {
   color: #ffffff;
   text-align: center;
 }
-.order button{
+.order button {
   display: block;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #1CC8DB;
+  background-color: #1cc8db;
   color: #ffffff;
   border-radius: 30px;
-  border: 1px ;
+  border: 1px;
   padding: 12px 30px 12px 30px;
   font-weight: 600;
   font-size: 16px;
-  
 }
 
-
-.cards{
+.cards {
   background-image: url("../pic/bg2.png");
   background-position: center;
   background-repeat: none;
   background-size: cover;
 }
-.cards h2{
+.cards h2 {
   margin-top: 50px;
   text-align: center;
   font-weight: 600;
   font-size: 40px;
 }
-.card-show{
+.card-show {
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -238,34 +245,31 @@ h1 {
   justify-content: center;
   gap: 100px;
 }
-.card1{
-  
+.card1 {
   width: 30%;
   height: 800px;
 }
-.card2{
-  
+.card2 {
   width: 30%;
   height: 800px;
 }
-.card3{
-  
+.card3 {
   width: 30%;
   height: 800px;
 }
-.card-header{
+.card-header {
   padding: 12px 30px 12px 30px;
   color: #ffffff;
-  background-color: #15136A;
+  background-color: #15136a;
   font-size: 30px;
   font-weight: 700;
   text-align: center;
   list-style: none;
 }
 
-.li-item{
+.li-item {
   color: #000000;
-  background-color: #E6F9FB;
+  background-color: #e6f9fb;
   padding: 15px 40px 15px 60px;
   font-size: 20px;
   font-weight: 500;
@@ -273,124 +277,156 @@ h1 {
   list-style: none;
 }
 
-.card-footer{
+.card-footer {
   padding: 25px 40px 15px 40px;
-  background-color: #1CC8DB;
+  background-color: #1cc8db;
   text-align: center;
   list-style: none;
   height: 200px;
 }
-.card-footer p{
+.card-footer p {
   color: #ffffff;
   font-weight: 400px;
   font-size: 22px;
 }
-.card-footer h3{
+.card-footer h3 {
   color: #ffffff;
   font-weight: 700px;
   font-size: 40px;
 }
-.card-footer button{
+.card-footer button {
   padding: 12px 30px 12px 30px;
-  border: 1px solid #1CC8DB;
+  border: 1px solid #1cc8db;
   color: #ffffff;
-  background-color: #15136A;
+  background-color: #15136a;
   border-radius: 30px;
   font-weight: 400px;
   font-size: 22px;
 }
-.choose{
+.choose {
   padding: 70px 70px 70px 70px;
-  background-color: #15136A;
-
+  background-color: #15136a;
 }
-.choose h2{
+.choose h2 {
   font-size: 40px;
   font-weight: 600;
   text-align: center;
   color: #ffffff;
   margin-bottom: 50px;
 }
-.choose-us{
+.choose-us {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 80px;
 }
-.shopify{
+.shopify {
   text-align: center;
   color: #ffffff;
 }
-.faster{
+.faster {
   text-align: center;
   color: #ffffff;
 }
-.clock{
+.clock {
   text-align: center;
   color: #ffffff;
 }
-.experience{
+.experience {
   text-align: center;
   color: #ffffff;
 }
 
-
-.rating{
+.rating {
   padding: 60px 60px 60px 60px;
   background-image: url("../pic/bg1.png");
   background-position: center;
   background-repeat: none;
   background-size: cover;
 }
-.rate{
+.rate {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 200px;
   text-align: center;
 }
-.online{
-  border-bottom: 2px solid #15136A ;
-}.online h1{
+.online {
+  border-bottom: 2px solid #15136a;
+}
+.online h1 {
   font-weight: 600;
   font-size: 100px;
   align-items: center;
 }
-.online h3{
-  color: #15136A;
+.online h3 {
+  color: #15136a;
   font-weight: 600;
   font-size: 30px;
   align-items: center;
 }
-.recommend{
-  border-bottom: 2px solid #15136A ;
-
+.recommend {
+  border-bottom: 2px solid #15136a;
 }
-.recommend h1{
+.recommend h1 {
   font-weight: 600;
   font-size: 100px;
 }
-.recommend h3{
-  color: #15136A;
+.recommend h3 {
+  color: #15136a;
   font-weight: 600;
   font-size: 30px;
 }
 
-.review{
-  border-bottom: 2px solid #15136A ;
-
+.review {
+  border-bottom: 2px solid #15136a;
 }
-.review h1{
+.review h1 {
   font-weight: 600;
   font-size: 100px;
 }
-.review h3{
-  color: #15136A;
+.review h3 {
+  color: #15136a;
   font-weight: 600;
   font-size: 30px;
 }
 
-.about-us{
+.about-us {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.question {
+  padding-left: 4%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: center;
+}
+
+
+.footer-area{
+  background-color: #15136A;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+}
+.footer-information {
+  color: #ffffff;  
+}
+.footer-information h3{
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+.footer-information p{
+  display: inline-block;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
 }
